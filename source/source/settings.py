@@ -128,8 +128,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Sentry
 sentry_sdk.init(
-    # dsn="https://example-org/example-project",  # sentry 사이트에서 자동 생성
-    dsn="https://67f6d242f73046a4a2db8c6330501aad@o1388011.ingest.sentry.io/6709948",
+    dsn="https://examplePublicKey@o0.ingest.sentry.io/0",  # sentry 사이트에서 자동 생성
     integrations=[DjangoIntegration()],
     
     # Set traces_sample_rate to 1.0 to capture 100%
